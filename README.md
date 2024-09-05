@@ -1,14 +1,9 @@
-# trabalho
+# SISTEMA DE CADASTRAMENTO DE ESTUDANTES, LIVROS E ALUGUÉIS UTILIZANDO EXPRESS:
 
-Oi esse é o arquivo que mostra a divisao do trabalho e quem fez qual parte
+Este sistema é parte do trabalho que foi desenvolvido em equipe, onde cada um dos membros ficou responsável por uma parte específica do projeto(livros=>João Victor, estudantes=>eu (Thais) e aluguéis=> Alexandre,  e busca extra que foi feita pelo nosso monitor Marcos) executado com o framework Express, sendo que eu fiquei com o tópico de gerenciamento de estudantes, cujas funções (de todas as partes, como um todo) são de realizar o cadastro, listagem, atualização e remoção dos estudantes através dos seus respectivos IDs;
 
-## partes
+Dentre os principais recursos que foram usados estão o uso dos chamados Status Code, que irão determinar o que aconteceu no processo de cadastramento por meio das mensagens de erro ou de conclusão, por exemplo:
 
-* **livros** :
-    * feito por: joão
-* **estudantes** :
-    * feito por: thais
-* **alugueis** :
-    * feito por: alexandre (ele foi embora antes de entregar o trabalho dele)
-* **buscas** :
-    * feito por: marcos
+*o Status Code 404, o qual define que o erro ocorreu no cliente, dizendo que e o servidor não encontrou a solicitação;
+
+*uma resposta do servidor com o Status Code 200, assim definindo que a operação requirida teve sucesso;
